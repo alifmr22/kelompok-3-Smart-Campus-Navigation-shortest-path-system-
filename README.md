@@ -1,15 +1,24 @@
-<<<<<<< HEAD
 =======
 # 🎓 Smart Campus Navigation & Shortest Path System
+=======
+# 🗂️ Branch: feat/ziiza-BST
+(Smart Campus Navigation System)
+>>>>>>> f9cdd3b (Update README)
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Course](https://img.shields.io/badge/Mata%20Kuliah-Algoritma%20%26%20Struktur%20Data-success.svg)]()
-[![Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)]()
+[![Author](https://img.shields.io/badge/Author-Azlizatussalwa_(25051030114)-blue.svg)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 
-Proyek **Sistem Navigasi Kampus Pintar** ini dikembangkan sebagai pemenuhan tugas *Team Based Project* (TA 2025/2026) untuk mata kuliah **ELT60213 Algoritma dan Struktur Data**, Teknik Elektro, Universitas Negeri Yogyakarta. 
+## 📌 Deskripsi Tugas
+Branch ini didedikasikan untuk membangun sistem direktori pencarian gedung yang efisien. Struktur data utama yang diimplementasikan di sini adalah Binary Search Tree (Modul 4) yang dikembangkan murni dari nol.
 
-Sistem ini memodelkan tata letak $\pm$ 100 hektar area kampus menjadi sebuah *Graph* berbobot (30 Gedung, 55 Koridor/Jalan) untuk membantu mahasiswa baru menemukan rute paling optimal antar gedung. Seluruh struktur data dibangun secara murni (*from scratch*) tanpa menggunakan pustaka koleksi bawaan Python untuk mendemonstrasikan pemahaman fundamental algoritma.
+## 🚀 Fitur yang Dikembangkan
+- *Modul 4: Binary Search Tree (src/modules/modul_4_bst.py)*
+  - Mengimplementasikan objek BSTNode untuk menyimpan Key (Kode Gedung, misal "A1") dan Value (Nama Lengkap Gedung).
+  - Mengurutkan data secara otomatis berdasarkan alfabetis kode gedung.
+  - Memastikan pencarian nama gedung memiliki kompleksitas waktu rata-rata $O(\log V)$, jauh lebih optimal dibandingkan array/list biasa.
+  - Menyediakan fungsi penelusuran (opsional Inorder) untuk menampilkan seluruh direktori gedung.
 
+<<<<<<< HEAD
 ---
 
 ## 👥 Tim Pengembang (Kelompok)
@@ -72,3 +81,7 @@ Sistem ini dipecah menjadi 6 modul fungsional yang saling terintegrasi:
     ├── Log_prompt.txt
     └── screenshots/
 >>>>>>> 9dd9465b2dfb26869006188561d8f6ba5ed3774d
+=======
+## 🧪 Cara Pengujian
+Inisialisasi BSTGedung, masukkan beberapa kode dan nama gedung menggunakan insert(), lalu validasi algoritma dengan memanggil fungsi search("A1").
+>>>>>>> f9cdd3b (Update README)
