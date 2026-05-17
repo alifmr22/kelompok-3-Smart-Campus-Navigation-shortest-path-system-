@@ -47,25 +47,33 @@ Sistem ini dipecah menjadi 6 modul fungsional yang saling terintegrasi:
 ## 📂 Struktur Direktori
 
 ```text
-📁 Smart-Campus-NavSys/
-├── 📄 README.md                 # Dokumentasi Proyek
+📁 PROJECT3/
+├── 📁 AI_log/                   # Log Penggunaan AI Assistant
+│   └── 📄 log_promt.txt
+├── 📁 docs/                     # Berkas Laporan & Presentasi
+│   ├── 📄 laporan_final.pdf
+│   └── 📄 slide_presentasi.pdf
+├── 📁 experiment/               # Folder Eksperimen
 ├── 📁 src/                      # Source Code Utama
-│   ├── 📄 main.py               # Entry Point (Modul 6 - CLI)
 │   ├── 📁 data_structures/      # Struktur Data Murni (From Scratch)
-│   │   ├── linked_list.py
-│   │   ├── stack.py
-│   │   ├── queue_ll.py
+│   │   ├── 📄 bst.py
+│   │   ├── 📄 graph.py
+│   │   ├── 📄 linked_list.py
+│   │   ├── 📄 queue.py
+│   │   └── 📄 stack.py
 │   ├── 📁 modules/              # Implementasi Algoritma
-│   │   ├── modul_1_graph.py
-│   │   ├── modul_2_dijkstra.py
-│   │   ├── modul_3_traversal.py
-│   │   ├── modul_4_bst.py
-│   │   ├── modul_5_isolasi.py
-├── 📁 experiments/              # Skrip Uji Coba Performa
-│   └── 📄 benchmark.py          # Uji runtime V dan E dinamis
-├── 📁 docs/                     # Berkas Laporan Laporan
-│   ├── Laporan_Final.pdf
-│   └── Slide_Presentasi.pdf
-└── 📁 AI_Log/                   # Log Penggunaan AI Assistant
-    ├── Log_prompt.txt
-    └── screenshots/
+│   │   ├── 📄 modules_1.py
+│   │   ├── 📄 modules_2.py
+│   │   ├── 📄 modules_3.py
+│   │   ├── 📄 modules_4.py
+│   │   ├── 📄 modules_5.py
+│   │   └── 📄 modules_6.py
+│   └── 📄 main.py               # Entry Point Aplikasi
+├── 📁 tests/                    # Unit Testing
+│   ├── 📄 test_bst.py
+│   ├── 📄 test_graph.py
+│   ├── 📄 test_linked_list.py
+│   ├── 📄 test_queue.py
+│   └── 📄 test_stack.py
+├── 📄 .gitignore                # Git Ignore File
+└── 📄 README.md                 # Dokumentasi Proyek
